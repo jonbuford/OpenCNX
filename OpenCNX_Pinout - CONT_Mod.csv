@@ -1,0 +1,86 @@
+,,,,,,,,
+,OpenCNX Standard Pinout,,,V0.4,,,,
+,Control Module,164 pin header,"General Assumptions: 0.5A Max Steady State Current Draw, PCI-e standard header",,,,,
+,Description,Pin Name,Header Pin (A),"Type, Notes",Description,Pin Name,Header Pin (B),"Type, Notes"
+,12V Supply,V12_0,A1,"Power, 1A Max @ 12V",Ground,GND1,B1,Power
+,12V Supply,V12_1,A2,Power,Ground,GND2,B2,Power
+,5V Supply,V5_0,A3,"Power, 1A Max @ 5V",Ground,GND3,B3,Power
+,5V Supply,V5_1,A4,Power,Ground,GND4,B4,Power
+,3.3V Supply,V3_0,A5,"Power, 1A Max @ 3.3V",Ground,GND5,B5,Power
+,3.3V Supply,V3_1,A6,Power,Ground,GND6,B6,Power
+,Ground,GND7,A7,Power,SPI MOSI,SPI_MOSI,B7,Output
+,SPI SCLK,SPI_SCLK,A8,Output,SPI MISO,SPI_MISO,B8,Input
+,SPI SS,SPI_SS,A9,Output,SPI SEL1,SPI_SEL1,B9,Output
+,SPI SEL0,SPI_SEL0,A10,Output,SPI SEL2,SPI_SEL2,B10,Output
+,Ground,GND8,A11,Power,Ground,GND9,B11,Power
+,I2C SDA,I2C_SDA,A12,I/O,I2C SCL,I2C_SCL,B12,I/O
+,I2C SEL0,I2C_SEL0,A13,Output,I2C SEL2,I2C_SEL2,B13,Output
+,I2C SEL1,I2C_SEL1,A14,Output,I2C SEL3,I2C_SEL3,B14,Output
+,,,A15,,,,B15,
+,,,A16,,Function Modules Reset,RESETN,B16,Output
+,System Clock 16MHz,SYSCLKH,A17,Output,,,B17,
+,,,A18,,System Sync Clock,SYSSYNC,B18,Output
+,,,A19,,,,B19,
+,Ground,GND10,A20,Power,Ground,GND11,B20,Power
+,ADC Input,ADC0_S,A21,Analog Input,ADC Input,ADC1_S,B21,Analog Input
+,,,A22,,,,B22,
+,PWM Output,PWM0_S,A23,"I/O, Casing","PWM Output (Fan, LED, etc.)",PWM1_S,B23,"I/O, Casing"
+,GPIO,GPIO0_S,A24,"I/O, Casing",GPIO,GPIO1_S,B24,"I/O, Casing"
+,Ground,GND12,A25,Power,Ground,GND13,B25,Power
+,PWM Output,PWM0_0,A26,"I/O, Function Header 0",PWM Output,PWM1_0,B26,"I/O, Function Header 0"
+,GPIO,GPIO0_0,A27,"I/O, Function Header 0",GPIO,GPIO3_0,B27,"I/O, Function Header 0"
+,GPIO,GPIO1_0,A28,"I/O, Function Header 0",GPIO,GPIO4_0,B28,"I/O, Function Header 0"
+,GPIO,GPIO2_0,A29,"I/O, Function Header 0",GPIO,GPIO5_0,B29,"I/O, Function Header 0"
+,,,A30,"I/O, Function Header 0",,,B30,"I/O, Function Header 0"
+,ADC/GPIO,ADC0_0,A31,"I/O, Function Header 0",ADC/GPIO,ADC1_0,B31,"I/O, Function Header 0"
+,Ground,GND14,A32,Power,Ground,GND15,B32,Power
+,PWM Output,PWM0_1,A33,"I/O, Function Header 1",PWM Output,PWM1_1,B33,"I/O, Function Header 1"
+,GPIO,GPIO0_1,A34,"I/O, Function Header 1",GPIO,GPIO3_1,B34,"I/O, Function Header 1"
+,GPIO,GPIO1_1,A35,"I/O, Function Header 1",GPIO,GPIO4_1,B35,"I/O, Function Header 1"
+,GPIO,GPIO2_1,A36,"I/O, Function Header 1",GPIO,GPIO5_1,B36,"I/O, Function Header 1"
+,,,A37,"I/O, Function Header 1",,,B37,"I/O, Function Header 1"
+,ADC/GPIO,ADC0_1,A38,"I/O, Function Header 1",ADC/GPIO,ADC1_1,B38,"I/O, Function Header 1"
+,Ground,GND16,A39,Power,Ground,GND17,B39,Power
+,PWM Output,PWM0_2,A40,"I/O, Function Header 2",PWM Output,PWM1_2,B40,"I/O, Function Header 2"
+,GPIO,GPIO0_2,A41,"I/O, Function Header 2",GPIO,GPIO3_2,B41,"I/O, Function Header 2"
+,GPIO,GPIO1_2,A42,"I/O, Function Header 2",GPIO,GPIO4_2,B42,"I/O, Function Header 2"
+,GPIO,GPIO2_2,A43,"I/O, Function Header 2",GPIO,GPIO5_2,B43,"I/O, Function Header 2"
+,,,A44,"I/O, Function Header 2",,,B44,"I/O, Function Header 2"
+,ADC/GPIO,ADC0_2,A45,"I/O, Function Header 2",ADC/GPIO,ADC1_2,B45,"I/O, Function Header 2"
+,Ground,GND18,A46,Power,Ground,GND19,B46,Power
+,PWM Output,PWM0_3,A47,"I/O, Function Header 3",PWM Output,PWM1_3,B47,"I/O, Function Header 3"
+,GPIO,GPIO0_3,A48,"I/O, Function Header 3",GPIO,GPIO3_3,B48,"I/O, Function Header 3"
+,GPIO,GPIO1_3,A49,"I/O, Function Header 3",GPIO,GPIO4_3,B49,"I/O, Function Header 3"
+,GPIO,GPIO2_3,A50,"I/O, Function Header 3",GPIO,GPIO5_3,B50,"I/O, Function Header 3"
+,,,A51,"I/O, Function Header 3",,,B51,"I/O, Function Header 3"
+,ADC/GPIO,ADC0_3,A52,"I/O, Function Header 3",ADC/GPIO,ADC1_3,B52,"I/O, Function Header 3"
+,Ground,GND20,A39,Power,Ground,GND21,B39,Power
+,PWM Output,PWM0_4,A54,"I/O, Function Header 4",PWM Output,PWM1_4,B54,"I/O, Function Header 4"
+,GPIO,GPIO0_4,A55,"I/O, Function Header 4",GPIO,GPIO3_4,B55,"I/O, Function Header 4"
+,GPIO,GPIO1_4,A56,"I/O, Function Header 4",GPIO,GPIO4_4,B56,"I/O, Function Header 4"
+,GPIO,GPIO2_4,A57,"I/O, Function Header 4",GPIO,GPIO5_4,B57,"I/O, Function Header 4"
+,,,A58,"I/O, Function Header 4",,,B58,"I/O, Function Header 4"
+,ADC/GPIO,ADC0_4,A59,"I/O, Function Header 4",ADC/GPIO,ADC1_4,B59,"I/O, Function Header 4"
+,Ground,GND22,A39,Power,Ground,GND23,B39,Power
+,PWM Output,PWM0_5,A61,"I/O, Function Header 5",PWM Output,PWM1_5,B61,"I/O, Function Header 5"
+,GPIO,GPIO0_5,A62,"I/O, Function Header 5",GPIO,GPIO3_5,B62,"I/O, Function Header 5"
+,GPIO,GPIO1_5,A63,"I/O, Function Header 5",GPIO,GPIO4_5,B63,"I/O, Function Header 5"
+,GPIO,GPIO2_5,A64,"I/O, Function Header 5",GPIO,GPIO5_5,B64,"I/O, Function Header 5"
+,,,A65,"I/O, Function Header 5",,,B65,"I/O, Function Header 5"
+,ADC/GPIO,ADC0_5,A66,"I/O, Function Header 5",ADC/GPIO,ADC1_5,B66,"I/O, Function Header 5"
+,Ground,GND24,A39,Power,Ground,GND25,B39,Power
+,PWM Output,PWM0_6,A68,"I/O, Function Header 6",PWM Output,PWM1_6,B68,"I/O, Function Header 6"
+,GPIO,GPIO0_6,A69,"I/O, Function Header 6",GPIO,GPIO3_6,B69,"I/O, Function Header 6"
+,GPIO,GPIO1_6,A70,"I/O, Function Header 6",GPIO,GPIO4_6,B70,"I/O, Function Header 6"
+,GPIO,GPIO2_6,A71,"I/O, Function Header 6",GPIO,GPIO5_6,B71,"I/O, Function Header 6"
+,,,A72,"I/O, Function Header 6",,,B72,"I/O, Function Header 6"
+,ADC/GPIO,ADC0_6,A73,"I/O, Function Header 6",ADC/GPIO,ADC1_6,B73,"I/O, Function Header 6"
+,Ground,GND26,A39,Power,Ground,GND27,B39,Power
+,PWM Output,PWM0_7,A75,"I/O, Function Header 7",PWM Output,PWM1_7,B75,"I/O, Function Header 7"
+,GPIO,GPIO0_7,A76,"I/O, Function Header 7",GPIO,GPIO3_7,B76,"I/O, Function Header 7"
+,GPIO,GPIO1_7,A77,"I/O, Function Header 7",GPIO,GPIO4_7,B77,"I/O, Function Header 7"
+,GPIO,GPIO2_7,A78,"I/O, Function Header 7",GPIO,GPIO5_7,B78,"I/O, Function Header 7"
+,,,A79,"I/O, Function Header 7",,,B79,"I/O, Function Header 7"
+,ADC/GPIO,ADC0_7,A80,"I/O, Function Header 7",ADC/GPIO,ADC1_7,B80,"I/O, Function Header 7"
+,Ground,GND28,A39,Power,Ground,GND29,B39,Power
+,,,A82,,,,B82,
