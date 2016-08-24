@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Template)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
-  (lib (name OpenCNX_footprint)(type KiCad)(uri "$(KIPRJMOD)\\OpenCNX_footprint.pretty")(options "")(descr ""))
-)
