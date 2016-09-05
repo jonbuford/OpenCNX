@@ -1,0 +1,36 @@
+,,,,,,,,
+,OpenCNX Standard Pinout,,,V0.1,,,,
+,Power,64 pin header,"General Assumptions: 3A Max Per Pin, 2A Steady State Max",,,,,
+,Description,Pin Name,Header Pin (A),Type,Description,Pin Name,Header Pin (B),Type
+,5V Supply,V5_1,1,Power,5V Supply,V5_4,2,Power
+,5V Supply,V5_2,3,Power,5V Supply,V5_5,4,Power
+,5V Supply,V5_3,5,Power,5V Supply,V5_6,6,Power
+,3.3V Supply,V3_1,7,Power,3.3V Supply,V3_4,8,Power
+,3.3V Supply,V3_2,9,Power,3.3V Supply,V3_5,10,Power
+,3.3V Supply,V3_3,11,Power,3.3V Supply,V3_6,12,Power
+,Ground,GND1,13,Power,Ground,GND2,14,Power
+,Ground,GND3,15,Power,Ground,GND4,16,Power
+,Ground,GND5,17,Power,Ground,GND6,18,Power
+,Ground,GND7,19,Power,Ground,GND8,20,Power
+,Ground,GND9,21,Power,Ground,GND10,22,Power
+,Ground,GND11,23,Power,Ground,GND12,24,Power
+,Ground,GND13,25,Power,Ground,GND14,26,Power
+,Ground,GND15,27,Power,Ground,GND16,28,Power
+,Ground,GND17,29,Power,Ground,GND18,30,Power
+,Ground,GND19,31,Power,Ground,GND20,32,Power
+,Ground,GND21,33,Power,Ground,GND22,34,Power
+,12V Supply,V12_1,35,Power,12V Supply,V12_2,36,Power
+,12V Supply,V12_3,37,Power,12V Supply,V12_4,38,Power
+,12V Supply,V12_5,39,Power,12V Supply,V12_6,40,Power
+,12V Supply,V12_7,41,Power,12V Supply,V12_8,42,Power
+,12V Supply,V12_9,43,Power,12V Supply,V12_10,44,Power
+,Vin,VIN1,45,Power,Vin,VIN2,46,Power
+,Vin,VIN3,47,Power,Vin,VIN4,48,Power
+,Vin,VIN5,49,Power,Vin,VIN6,50,Power
+,Vin,VIN7,51,Power,Vin,VIN8,52,Power
+,Vin,VIN9,53,Power,Vin,VIN10,54,Power
+,Vin,VIN11,55,Power,Vin,VIN12,56,Power
+,Vin,VIN13,57,Power,Vin,VIN14,58,Power
+,Vin,VIN15,59,Power,Vin,VIN16,60,Power
+,Vin,VIN17,61,Power,Vin,VIN18,62,Power
+,Vin,VIN19,63,Power,Vin,VIN20,64,Power
